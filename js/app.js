@@ -6,8 +6,6 @@ function problem1() {
     console.log(sortedArray[0])
 }
 
-// problem1();
-
 
 // ************************** Problem-2 **************************
 
@@ -17,7 +15,6 @@ function problem2() {
     console.log(sortedArray[0])
 }
 
-// problem2();
 
 // ************************** Problem-3 **************************
 
@@ -27,7 +24,6 @@ function problem3() {
     let sum = arr.reduce((prev, curr) => prev + curr, 0);
     console.log(sum)
 }
-// problem3();
 
 // ************************** Problem-4 **************************
 function problem4() {
@@ -36,7 +32,6 @@ function problem4() {
     let newArray = strings.map((arrItem)=>arrItem[0])
     console.log(newArray);
 }
-// problem4();
 
 // ************************** Problem-5 **************************
 function problem5() {
@@ -45,7 +40,6 @@ function problem5() {
 
     console.log(newArray);
 }
-// problem5()
 // ************************** Problem-6 **************************
 function problem6() {
     const strings = ['hello', 'world', 'foo', 'bar'];
@@ -53,7 +47,6 @@ function problem6() {
     let longestString = strings.sort((a, b) => b.length-a.length)
     console.log(longestString[0])
 }
-// problem6();
 
 
 // ************************** Problem-7 **************************
@@ -63,7 +56,6 @@ function problem7() {
     let avg = arr.reduce((prev, curr) => prev + curr, 0)/arr.length;
     console.log(avg)
 }
-// problem7();
 
 // ************************** Problem-8 **************************
 function problem8() {
@@ -71,7 +63,6 @@ function problem8() {
     strings.sort();
     console.log(strings);
 }
-// problem8();
 
 // ************************** Problem-9 **************************
 function problem9() {
@@ -93,7 +84,6 @@ function problem9() {
 
 
 }
-// problem9();
 
 // ************************** Problem-10 **************************
 
@@ -110,7 +100,6 @@ function problem10() {
         }
     })
 }
-// problem10();
 
 // ************************** Problem-11 **************************
 function problem11() {
@@ -123,4 +112,3 @@ function problem11() {
     menuItems.sort((a, b) => a.price - b.price);
     console.log(menuItems);
 }
-// problem11();
